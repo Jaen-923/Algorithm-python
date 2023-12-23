@@ -37,15 +37,3 @@ else:
     total = num * M
 
 print(total)
-
-
-
-
-
-
-
-
-
-
-
-
