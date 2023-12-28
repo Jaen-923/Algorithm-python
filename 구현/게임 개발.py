@@ -47,7 +47,7 @@ while True:
 
     # 회전한 이후 정면에 가보지 않은 칸이 존재하는 경우 이동
     if d[nx][ny] == 0 and array[nx][ny] == 0:
-        d[nx][ny] = 1 #
+        d[nx][ny] = 1 # 현재 좌표 방문 처리
         x = ny
         y = ny
         count += 1
